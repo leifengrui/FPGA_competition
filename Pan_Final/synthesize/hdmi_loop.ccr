@@ -1,0 +1,151 @@
+##### Written on 2022/11/09 19:11:20 ###############################
+
+
+##### DESIGN INFO ##################################################
+
+Top Module:
+	hdmi_loop
+
+Constraint File(s):
+	C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 51 critical warning(s), 0 warning(s), out of 309 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:vin_data[23]} {PAP_IO_LOC} {K15}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 189)] | Port vin_data[23] has been placed at location K15, whose type is share pin.
+
+define_attribute {p:vin_data[22]} {PAP_IO_LOC} {J19}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 194)] | Port vin_data[22] has been placed at location J19, whose type is share pin.
+
+define_attribute {p:vin_data[21]} {PAP_IO_LOC} {H19}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 199)] | Port vin_data[21] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:vin_data[20]} {PAP_IO_LOC} {H18}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 204)] | Port vin_data[20] has been placed at location H18, whose type is share pin.
+
+define_attribute {p:vin_data[19]} {PAP_IO_LOC} {J18}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 209)] | Port vin_data[19] has been placed at location J18, whose type is share pin.
+
+define_attribute {p:vin_data[18]} {PAP_IO_LOC} {J15}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 214)] | Port vin_data[18] has been placed at location J15, whose type is share pin.
+
+define_attribute {p:vin_data[17]} {PAP_IO_LOC} {J14}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 219)] | Port vin_data[17] has been placed at location J14, whose type is share pin.
+
+define_attribute {p:vin_data[15]} {PAP_IO_LOC} {G25}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 229)] | Port vin_data[15] has been placed at location G25, whose type is share pin.
+
+define_attribute {p:vin_data[14]} {PAP_IO_LOC} {D25}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 234)] | Port vin_data[14] has been placed at location D25, whose type is share pin.
+
+define_attribute {p:vin_data[13]} {PAP_IO_LOC} {E25}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 239)] | Port vin_data[13] has been placed at location E25, whose type is share pin.
+
+define_attribute {p:vin_data[12]} {PAP_IO_LOC} {D26}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 244)] | Port vin_data[12] has been placed at location D26, whose type is share pin.
+
+define_attribute {p:vin_data[10]} {PAP_IO_LOC} {K16}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 254)] | Port vin_data[10] has been placed at location K16, whose type is share pin.
+
+define_attribute {p:vin_data[9]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 259)] | Port vin_data[9] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:vin_data[6]} {PAP_IO_LOC} {E23}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 274)] | Port vin_data[6] has been placed at location E23, whose type is share pin.
+
+define_attribute {p:vin_data[5]} {PAP_IO_LOC} {F23}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 279)] | Port vin_data[5] has been placed at location F23, whose type is share pin.
+
+define_attribute {p:vin_data[1]} {PAP_IO_LOC} {G24}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 299)] | Port vin_data[1] has been placed at location G24, whose type is share pin.
+
+define_attribute {p:vin_data[0]} {PAP_IO_LOC} {F24}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 304)] | Port vin_data[0] has been placed at location F24, whose type is share pin.
+
+define_attribute {p:vin_de} {PAP_IO_LOC} {F22}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 377)] | Port vin_de has been placed at location F22, whose type is share pin.
+
+define_attribute {p:vin_vs} {PAP_IO_LOC} {H26}
+
+	C: ConstraintEditor-2002: [C:/Users/lei/Desktop/Pan_Final/hdmi_loop.fdc(line number: 387)] | Port vin_vs has been placed at location H26, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+C: ConstraintEditor-2009: p:vout_data[23] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[22] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[21] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[20] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[19] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[18] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[17] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[16] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[15] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[14] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[13] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[12] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[11] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[10] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[9] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[8] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[7] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[6] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[5] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[4] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[3] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[2] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[1] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_data[0] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:hdmi_scl is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:hdmi_sda is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:hdmi_in_nreset is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:hdmi_nreset is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_clk is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_de is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_hs is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+C: ConstraintEditor-2009: p:vout_vs is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {FAST, SLOW}.
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

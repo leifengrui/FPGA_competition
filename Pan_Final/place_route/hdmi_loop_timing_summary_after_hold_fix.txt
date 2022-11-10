@@ -1,0 +1,132 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      1.352       0.000              0           1071
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                    17.168       0.000              0            541
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk          491.990       0.000              0          46907
+ DebugCore_JCLK         DebugCore_JCLK              23.988       0.000              0            582
+ DebugCore_CAPTURE      DebugCore_JCLK              21.413       0.000              0             92
+ DebugCore_JCLK         DebugCore_CAPTURE           46.289       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.186       0.000              0           1071
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                     0.242       0.000              0            541
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk            0.339       0.000              0          46907
+ DebugCore_JCLK         DebugCore_JCLK               0.352       0.000              0            582
+ DebugCore_CAPTURE      DebugCore_JCLK              24.789       0.000              0             92
+ DebugCore_JCLK         DebugCore_CAPTURE            0.905       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk                      1.725       0.000              0            146
+ sys_clk                sys_clk                      3.740       0.000              0             28
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                    16.479       0.000              0             79
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk          997.229       0.000              0            528
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk                      0.548       0.000              0            146
+ sys_clk                sys_clk                      0.347       0.000              0             28
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                     1.319       0.000              0             79
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk            0.377       0.000              0            528
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      2.730       0.000              0           1071
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                    18.115       0.000              0            541
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk          494.969       0.000              0          46907
+ DebugCore_JCLK         DebugCore_JCLK              24.392       0.000              0            582
+ DebugCore_CAPTURE      DebugCore_JCLK              22.783       0.000              0             92
+ DebugCore_JCLK         DebugCore_CAPTURE           47.685       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.132       0.000              0           1071
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                     0.166       0.000              0            541
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk            0.250       0.000              0          46907
+ DebugCore_JCLK         DebugCore_JCLK               0.250       0.000              0            582
+ DebugCore_CAPTURE      DebugCore_JCLK              24.931       0.000              0             92
+ DebugCore_JCLK         DebugCore_CAPTURE            0.749       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk                      2.847       0.000              0            146
+ sys_clk                sys_clk                      4.194       0.000              0             28
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                    17.707       0.000              0             79
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk          998.193       0.000              0            528
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk                      0.345       0.000              0            146
+ sys_clk                sys_clk                      0.246       0.000              0             28
+ sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                        sys_clk|sys_pll_m0/u_gpll/CLKOUT0_Inferred
+                                                     0.888       0.000              0             79
+ hdmi_loop|vin_clk      hdmi_loop|vin_clk            0.260       0.000              0            528
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
